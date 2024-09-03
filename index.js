@@ -89,10 +89,10 @@ function getAllPropValues(arr, prop) {
 }
 
 const products = [
-    { name: "Yatoro", price: 1300, quantity: 4 },
-    { name: "Collapse", price: 2700, quantity: 3 },
-    { name: "Mira", price: 400, quantity: 7 },
-    { name: "Larl", price: 1200, quantity: 9 },
+    { name: "Yatoro", price: 1300, quantity: 5 },
+    { name: "Collapse", price: 2700, quantity: 9 },
+    { name: "Mira", price: 400, quantity: 3 },
+    { name: "Larl", price: 1200, quantity: 7 },
 ];
 
 console.log(getAllPropValues(products, "name"));
